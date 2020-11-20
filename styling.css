@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  margin: 0vw;
+  padding: 2vw;
+  background-color: rgb(0, 13, 32);
+}
+
+.huhu a {
+  text-decoration: none;
+}
+
+.huhu h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3vw;
+  font-family: Arial Black;
+  color: white;
+}
+
+.huhu i {
+  display: flex;
+  justify-content: flex-end;
+  top: 0;
+  font-size: 2vw;
+  color: white;
+}
+
+.guywithlight {
+  width: 100vw;
+}
+
+.shopping {
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+}
+
+.shopping button {
+  position: relative;
+  width: fit-content;
+  height: 8vh;
+  background-color: white;
+  margin-bottom: 10vw;
+}
+
+.shopping a {
+  text-decoration: none;
+  font-family: Arial Black;
+  color: black;
+}
+
+.photos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 15vw;
+  height: 22vw;
+}
+
+.photos a:hover img {
+  transform: scale(1.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-image: url("empty.gif");
+}
+
+.shopping h4 {
+  text-align: center;
+}
+
+.information {
+  padding-top: 4vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  background-color: rgb(0, 13, 32);
+}
+
+.information button {
+  position: relative;
+  width: fit-content;
+  height: 4vh;
+  background-color: white;
+  margin-bottom: 2vw;
+}
+
+.about-contact{
+  display: inline-block;
+  padding-top: 10vh;
+  width: 49vw;
+}
+
+.about{
+ padding-top: 10vh;
+}
+
+.everything{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.moreinformation {
+  font-family: Arial Black;
+  border: solid;
+  border-width: 0.2rem;
+  border-color: black;
+  font-size: larger;
+}
+
+.wilmer {
+  padding-left: 60vw;
+  padding-top: 5vh;
+}
+
+.products {
+  position: relative;
+  top: 8vh;
+  left: 32vw;
+  justify-content: flex-end;
+  padding-top: 10vh;
+}
+
+.photoproduct {
+  display: inline-flex;
+  margin-left: 3vw;
+  border: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+.text{
+  width: 25vw;
+  background-color: rgb(255, 255, 255);
+  font-family: Arial Black;
+}
+
+.text p{
+  padding-top: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5vw;
+}
+
+@media (max-width: 426px){
+  header{
+    padding: 6vw;
+  }
+  .email{
+    font-size: 2.9vw;
+  }
+    .everything {
+    flex-direction: column;
+    align-items: center;
+  }
+  img{
+    width: 20vw;
+  }
+  .text{
+    width: 30vw;
+  }
+  .text h2{
+    font-size: 5vw;
+  }
+  .text p{
+    padding-top: 3vh;
+    font-size: 3vw;
+  }
+}
+
+.email{
+  color: blue;
+}
